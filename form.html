@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<head>
+    <title>Form</title>
+
+    <style>
+    body
+    {
+     text-align: center;
+     background-color: #99e6ff;
+     font-size: 20px;
+    }
+    </style>
+
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+    <hr style="width: 40%; background-color: white; height: 0.5px;"><br><b>
+    <form>
+       First Name : <input type="text" name="fname" placeholder="Enter your first name" size="40" required><br><br>
+
+       Middle Name : <input type="text" name="mname" placeholder="Enter your middle name" size="40" required><br><br>
+
+       Last Name : <input type="text" name="lname" placeholder="Enter your last name" size="40" required><br><br>
+
+       Course:
+       <select name="Course"> 
+        <option value="HTML">HTML</option>
+        <option value="CSS">CSS</option>
+        <option value="JAVA">JAVA</option>
+        <option value="PYTHON">PYTHON</option>
+       </select><br><br>
+
+       Gender:  
+       <input type="radio" name="gender[]" value="male"> Male         
+       <input type="radio" name="gender[]" value="female"> Female
+       <input type="radio" name="gender[]" value="other"> Other<br><br>
+    
+       Phone No:
+       <input type="text" name="phoneno" placeholder="enter your mobile number" maxlength="10" size="40"><br><br>
+
+       Current Address:<br>
+       <textarea name="currentaddress" placeholder="enter your address" maxlength="150" cols="38" rows="5"></textarea><br><br>
+
+       Email:
+       <input type="email"  name="email" placeholder="enter your email address" size="40" required><br><br>
+
+       Password: 
+       <input type="password" name="password" maxlength="10" placeholder="enter your password" size="40" required><br><br>
+
+       <input type="reset" value="Reset">
+       <input type="submit" value="Submit">
+
+    </form></b>
+</body>
